@@ -1,0 +1,18 @@
+<p>databinding works!</p>
+<!-- 1.Interpolation binding -->
+<p>{{sample}}</p>
+<p>{{num}}</p>
+<p>{{Sampletext}}</p>
+
+<!-- 2.property binding -->
+<a [href]="link">Go to Google</a><br>
+<img [src]="path" alt="text" style="height: 200px; width: 100px;">
+<br>
+
+<!-- 3.Event Binding -->
+<button type="button" class="btn btn-primary" (click)="OnClick()">ButtonEvent</button><br>
+
+<!-- 4.Two way data binding -->
+<label for="fname">Enter your FirstName</label>
+<input type="text" name="fn" [(ngModel)]="fname">
+your first name is:{{fname}}
