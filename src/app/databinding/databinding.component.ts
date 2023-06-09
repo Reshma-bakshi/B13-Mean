@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class DatabindingComponent {
  //1.Interpolation binding
-  public sample:any="Reshma";
+  public sample:any="Reshma Bakshi";
 
   public num:any=50;
 
